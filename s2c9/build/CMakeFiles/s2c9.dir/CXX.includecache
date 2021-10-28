@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/crypto-pals/s2c9/s2c9.cpp
+cstdint
+-
+stdio.h
+-
+string
+-
+cstring
+-
+cassert
+-
+cmath
+-
+vector
+-
+fstream
+-
+streambuf
+-
+algorithm
+-
+openssl/bio.h
+-
+openssl/ssl.h
+-
+openssl/aes.h
+-
+openssl/err.h
+-
+openssl/evp.h
+-
+openssl/evperr.h
+-
+
